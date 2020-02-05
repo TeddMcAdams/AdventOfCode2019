@@ -11,7 +11,7 @@ namespace AdventOfCode2019
         private List<int> input;
         public Day1()
         {
-            input = File.ReadLines("Inputs/day1input.txt")
+            input = File.ReadLines("Inputs/Day1input.txt")
                         .Select(int.Parse)
                         .ToList();
 
